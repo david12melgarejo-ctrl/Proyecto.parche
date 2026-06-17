@@ -1,0 +1,364 @@
+/* ==========================================================================
+   Una vez hecho mi trabajo le pedi a la IA(Geminis) que me oriente en como podia mejorar y optimizar mi codigo y el diseño de la pagina
+   ========================================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, .logo, .nazul {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+}
+
+.titulop:first-child {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    line-height: 1;  
+}
+
+.azul {
+    color: rgb(58, 154, 233);
+}
+
+.parrafo {
+    margin: 0;
+    margin-top: -2px;
+    font-size: 11px; 
+    font-weight: normal;
+    color: rgb(122, 122, 121);
+    letter-spacing: 1px;
+}
+
+.tabladefondo {
+   width: 100%;
+}
+
+a {
+    color: rgb(102, 101, 101);
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.td {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.primeralinea {
+    font-size: 15px;
+    color: rgb(79, 144, 228);
+}
+
+.seccion {
+    background-color: rgb(221, 232, 241);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.subtitulo {
+    font-size: 15px;
+    color: rgb(91, 158, 235);
+    letter-spacing: 1px;
+}
+
+.lprincipal {
+    font-size: 40px;
+    color: rgb(47, 58, 158);
+}
+
+.seccion2 {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.tablac {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;   
+    border-collapse: collapse;
+}
+
+.columna {
+    width: 33.33%;
+    vertical-align: top; 
+    padding: 0 30px;     
+    box-sizing: border-box;
+}
+
+.nazul {
+    color: #1d3c92;      
+    font-size: 22px;
+    margin: 0 0 12px 0;
+}
+
+.espacio {
+    margin-top: 5px;
+    padding-left: 250px;
+}
+
+.p {
+    color: #5a6b82;     
+    font-size: 15px;
+    line-height: 1.5;    
+    margin: 0;
+    font-weight: normal;
+}
+.icono {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.iconos1, .iconos2, .iconos3, .iconos4 {
+    font-size: 45px;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 12px 12px 0 0; 
+}
+
+.iconos1 { background-color: rgb(199, 213, 250); }
+.iconos2 { background-color: rgb(235, 213, 241); }
+.iconos3 { background-color: rgb(198, 241, 220); }
+.iconos4 { background-color: rgb(238, 222, 205); }
+
+.seccion3 {
+    background-color: #ebeffc;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.encabezado {
+    color: #5a6b82;
+    padding-left: 250px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.resaltado, .resaltado1, .resaltado2, .resaltado3 {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resaltado { background-color: #e0ebff; color: #1d3c92; }
+.resaltado1 { background-color: #f3e8ff; color: #bd369f; }
+.resaltado2 { background-color: #e6f9ed; color: #075c15; }
+.resaltado3 { background-color: #fef3e2; color: #92730e; }
+
+.p1 {
+    font-size: 14px;
+    color: #5a6b82; 
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+    font-weight: normal;
+}
+
+.bajo {
+    color: #5a6b82;   
+    font-size: 13px;
+    margin: 0;
+    font-weight: normal;
+}
+
+h5 {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #1a202c;
+}
+
+/* Botones amigables con más curvatura */
+.bazul, .bmorado, .bverde, .bnaranja {
+    color: white;
+    padding: 12px 60px;
+    border-radius: 30px; /* Bordes completamente ovalados tipo cápsula */
+    border: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.2s;
+}
+
+.bazul:hover, .bmorado:hover, .bverde:hover, .bnaranja:hover {
+    transform: scale(1.55); 
+}
+
+.bazul { background-color: #1d3c92; }
+.bmorado { background-color: #853ee2; }
+.bverde { background-color: #28a745; }
+.bnaranja { background-color: #ff9800; }
+
+.seccion4 {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #ebeffc;
+}
+
+.tablad {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;   
+    border-collapse: separate;
+    border-spacing: 20px; 
+}
+
+
+.tablad th {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 10px 20px 25px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+}
+
+.seccion5 {
+    background-color: #d9deec;
+    text-align: center;
+    padding: 50px 40px;
+    color: #5a6b82;     
+    font-size: 16px;
+    line-height: 1.6;    
+    margin: 0;
+}
+
+.fin {
+    color: rgb(56, 56, 155);
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Footer Estructura */
+.contenedor {
+    background-color: #0b1325; 
+    color: #8a99ad;            
+    padding: 40px 30px;      
+}
+
+.cuerpo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.bloque {
+    max-width: 300px;
+}
+
+.logo {
+    color: #ffffff;            
+    font-size: 1.8rem;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    color: #2b6cb0;           
+}
+
+.des {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.direccion {
+    text-align: right;       
+}
+
+.bloqued {
+    font-size: 0.95rem;
+    margin: 0 0 8px 0;
+    color: #a0aec0;
+}
+
+.colork {
+    color: #3182ce;
+    font-weight: 700;
+}
+
+.copy {
+    font-size: 0.8rem;
+    color: #4a5568;           
+    margin: 20px 0 0 0;
+}
+.tablad th button {
+    display: block;    
+    margin-left: auto;  
+    margin-right: auto; 
+}
+/* ==========================================================================
+   Esto es un parche hecho con IA para poder adaptarlo en celulares
+   ========================================================================== */
+@media (max-width: 768px) {
+    .tabladefondo, .tabladefondo thead, .tabladefondo tr {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .tabladefondo th {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+    }
+    .parrafo {
+        margin-top: 2px;
+    }
+    .tablac, .tablac thead, .tablac tr {
+        display: block;
+        width: 100%;
+    }
+    .columna {
+        display: block;
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .tablad, .tablad thead, .tablad tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .tablad th {
+        display: block;
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 25px;
+    }
+    .encabezado, .espacio {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .cuerpo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .direccion {
+        text-align: center;
+    }
+}
